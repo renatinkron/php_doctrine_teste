@@ -1,6 +1,6 @@
 <?php
 
-namespace Renato\TestOrm\Models;
+namespace Renato\TestOrm\Infrastructure\Database\Models;
 
 use Renato\TestOrm\domain\Usuario;
 use Doctrine\ORM\Mapping as ORM;

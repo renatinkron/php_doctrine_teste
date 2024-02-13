@@ -1,10 +1,10 @@
 <?php
 
-namespace Renato\TestOrm\Repository;
+namespace Renato\TestOrm\Infrastructure\Repository\User;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Tools\Setup;
-use Renato\TestOrm\Models\UsuarioMapper;
+use Renato\TestOrm\Infrastructure\Database\Models\UsuarioMapper;
 
 
 class UserRepository {

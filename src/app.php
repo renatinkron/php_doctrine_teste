@@ -1,7 +1,7 @@
 <?php
 namespace Renato\TestOrm;
 
-use Renato\TestOrm\Repository\UserRepository;
+use Renato\TestOrm\Infrastructure\Repository\User\UserRepository;
 
 $repository = new UserRepository();
 $users = $repository->findAll();
