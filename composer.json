@@ -1,0 +1,17 @@
+{
+    "name": "natin/teste_orm_php",
+    "require": {
+        "doctrine/orm": "^2.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Renato\\TesteOrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "renato souza",
+            "email": "renatosdesign@gmail.com"
+        }
+    ]
+}
